@@ -7,7 +7,7 @@ import com.intellij.openapi.ui.popup.JBPopupFactory
 import com.jetbrains.lang.makefile.MakefileRunTargetAction
 import com.jetbrains.lang.makefile.MakefileTargetIndex
 
-class MakefilePopupAction : AnAction() {
+class MakeAnywherePopupAction : AnAction() {
     override fun actionPerformed(actionEvent: AnActionEvent) {
         val project = actionEvent.project ?: return
 
