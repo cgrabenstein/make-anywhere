@@ -1,4 +1,4 @@
-package de.cgrabenstein.makeaction
+package de.cgrabenstein.makeanywhere
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
