@@ -28,8 +28,8 @@
     <extensions defaultExtensionNs="com.intellij"/>
 
     <actions>
-        <action id="de.cgrabenstein.makeanywhere.MakefilePopupAction" class="de.cgrabenstein.makeanywhere.MakefilePopupAction"
-                text="Make Aynwhere" description="Shows a popup with all available make actions.">
+        <action id="de.cgrabenstein.makeanywhere.MakeAnywherePopupAction" class="de.cgrabenstein.makeanywhere.MakeAnywherePopupAction"
+                text="Make Anywhere" description="Shows a popup with all available make actions.">
         </action>
     </actions>
 </idea-plugin>
