@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "make-action"
+rootProject.name = "make-anywhere"

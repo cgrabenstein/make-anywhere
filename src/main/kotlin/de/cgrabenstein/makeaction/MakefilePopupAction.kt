@@ -9,7 +9,9 @@ import com.jetbrains.lang.makefile.MakefileTargetIndex
 
 class MakefilePopupAction : AnAction() {
     override fun actionPerformed(actionEvent: AnActionEvent) {
-        val makefileTargets = MakefileTargetIndex.getInstance().allTargets(actionEvent.project!!)
+        val project = actionEvent.project ?: return
+
+        val makefileTargets = MakefileTargetIndex.getInstance().allTargets(project)
 
         val actionGroup = DefaultActionGroup()
         actionGroup.addAll(makefileTargets.map { MakefileRunTargetAction(it) })
@@ -17,6 +19,6 @@ class MakefilePopupAction : AnAction() {
         JBPopupFactory
                 .getInstance()
                 .createActionGroupPopup("Make actions", actionGroup, actionEvent.dataContext, JBPopupFactory.ActionSelectionAid.SPEEDSEARCH, true)
-                .showInBestPositionFor(actionEvent.dataContext)
+                .showCenteredInCurrentWindow(project)
     }
 }

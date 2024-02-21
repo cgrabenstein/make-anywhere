@@ -1,11 +1,11 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>de.cgrabenstein.make-action</id>
+    <id>de.cgrabenstein.make-anywhere</id>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Make Action Popup</name>
+    <name>Make Anywhere</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="christoph.grabenstein@gmail.com">Christoph Grabenstein</vendor>
@@ -29,7 +29,7 @@
 
     <actions>
         <action id="de.cgrabenstein.makeaction.MakefilePopupAction" class="de.cgrabenstein.makeaction.MakefilePopupAction"
-                text="Make Actions Popup" description="Shows a popup with all available make actions.">
+                text="Make Aynwhere" description="Shows a popup with all available make actions.">
         </action>
     </actions>
 </idea-plugin>

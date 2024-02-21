@@ -6,7 +6,7 @@ it to your preferred shortcut and access your make targets from anywhere.
 ## Building
 
 1. Run `./gradlew buildPlugin`
-2. Output ZIP is directed to `build/distributions/make-action-0.1.zip`
+2. Output ZIP is directed to `build/distributions/make-anywhere-0.1.zip`
 
 ## Installation
 
