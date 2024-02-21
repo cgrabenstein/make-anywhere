@@ -7,12 +7,7 @@ it to your preferred shortcut and access your make targets from anywhere.
 
 In this demo you can see the difference between the existing make tool window and the popup provided by this plugin.
 
-
-
 https://github.com/cgrabenstein/make-anywhere/assets/6358948/7106549f-7577-42c9-b8e8-929d32c4468a
-
-
-
 
 ## Building
 
