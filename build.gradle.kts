@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "de.cgrabenstein"
-version = "0.1.1"
+version = "0.2.0"
 
 repositories {
     mavenCentral()
@@ -14,9 +14,9 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
-    version.set("2023.3.4")
+    version.set("2024.1")
 
-    plugins.set(listOf("name.kropp.intellij.makefile:233.13135.65"))
+    plugins.set(listOf("name.kropp.intellij.makefile:241.14494.150"))
 }
 
 tasks {
