@@ -1,7 +1,9 @@
 # About
 
+<!-- Plugin description -->
 This is a small add-on to the Makefile Language Plugin. This plugin adds a popup that displays all make targets in the project. Bind
 it to your preferred shortcut and access your make targets from anywhere.
+<!-- Plugin description end -->
 
 ## Demo
 
